@@ -1,0 +1,182 @@
+[
+  {
+    "Id": 1,
+    "Name": "Angular Speedster Board 2000",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1,
+    "Desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  },
+  {
+    "Id": 2,
+    "Name": "Green Angular Board 3000",
+    "ProductTypeId": 2,
+    "ProductBrandId": 2,
+    "Desc": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  },
+  {
+    "Id": 3,
+    "Name": "Core Board Speed Rush 3",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3,
+    "Desc": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  },
+  {
+    "Id": 4,
+    "Name": "Net Core Super Board",
+    "ProductTypeId": 4,
+    "ProductBrandId": 4,
+    "Desc": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  },
+  {
+    "Id": 5,
+    "Name": "React Board Supper Whizzy Fast",
+    "ProductTypeId": 4,
+    "ProductBrandId": 5,
+    "Desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  },
+  {
+    "Id": 6,
+    "Name": "Typescript Entry Board",
+    "ProductTypeId": 3,
+    "ProductBrandId": 6,
+    "Desc": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  },
+  {
+    "Id": 7,
+    "Name": "Core Maroon Hat",
+    "ProductTypeId": 2,
+    "ProductBrandId": 6,
+    "Desc": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  },
+  {
+    "Id": 8,
+    "Name": "Greaan React Woolen Hat",
+    "ProductTypeId": 1,
+    "ProductBrandId": 6,
+    "Desc": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  },
+  {
+    "Id": 9,
+    "Name": "Blue React Woolen Hat",
+    "ProductTypeId": 2,
+    "ProductBrandId": 5,
+    "Desc": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  },
+  {
+    "Id": 10,
+    "Name": "Bliue Code Gloves",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4,
+    "Desc": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  },
+  {
+    "Id": 11,
+    "Name": "Green Code Gloves",
+    "ProductTypeId": 4,
+    "ProductBrandId": 3,
+    "Desc": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  },
+  {
+    "Id": 12,
+    "Name": "Purple React Gloves",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2,
+    "Desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  },
+  {
+    "Id": 13,
+    "Name": "Green React Gloves",
+    "ProductTypeId": 2,
+    "ProductBrandId": 1,
+    "Desc": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  },
+  {
+    "Id": 14,
+    "Name": "Redis Red Boots",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2,
+    "Desc": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  },
+  {
+    "Id": 15,
+    "Name": "Core Red Boots",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3,
+    "Desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  },
+  {
+    "Id": 16,
+    "Name": "Core Purple Boots",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4,
+    "Desc": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  },
+  {
+    "Id": 17,
+    "Name": "Angular Purple Boots",
+    "ProductTypeId": 4,
+    "ProductBrandId": 5,
+    "Desc": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  },
+  {
+    "Id": 18,
+    "Name": "Angular Blue Boots",
+    "ProductTypeId": 3,
+    "ProductBrandId": 6,
+    "Desc": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "RegDT": "2021-07-12T07:40:15.936Z",
+    "UpDT": "2021-07-12T07:40:15.936Z",
+    "IsActive": true
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "Name": "Angular",
+    "IsActive": true
+  },
+  {
+    "Id": 2,
+    "Name": "NetCore",
+    "IsActive": true
+  },
+  {
+    "Id": 3,
+    "Name": "VS Code",
+    "IsActive": true
+  },
+  {
+    "Id": 4,
+    "Name": "React",
+    "IsActive": true
+  },
+  {
+    "Id": 5,
+    "Name": "Typescript",
+    "IsActive": true
+  },
+  {
+    "Id": 6,
+    "Name": "Redis",
+    "IsActive": true
+  }
+]
