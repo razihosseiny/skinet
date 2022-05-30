@@ -1,8 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using API;
+using API.Extensions;
 using Core.Interfaces;
 using Infrustracture.Data;
 using API.Helpers;
+using API.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,7 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+//builder.Services.AddSwaggerGen();
 
 //connectionString
 var connectionString = builder.Configuration.GetConnectionString(name: "DefaultConnection");
@@ -19,6 +21,11 @@ builder.Services.AddDbContext<StoreContext>(x => x.UseSqlite(connectionString));
 builder.Services.AddTransient<IProductRepository, ProductRepository>();
 builder.Services.AddTransient(typeof(IGenericRepository<>), (typeof(GenericRepository<>)));
 builder.Services.AddAutoMapper(typeof(MappingProfile));
+
+ApplicationServiceExtensions.AddApplicationServices(builder.Services);
+
+SwaggerServiceExtensions.AddSwaggerDocumentation(builder.Services);
+
 var app = builder.Build();
 await ApplyMigrations(app);
 
@@ -90,11 +97,11 @@ static async Task ApplyMigrations(WebApplication app)
 }
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseMiddleware<ExceptionMiddleware>();
+
+SwaggerServiceExtensions.UseSwaggerDocumentation(app);
+
+app.UseStatusCodePagesWithReExecute("/errors/{0}");
 
 app.UseHttpsRedirection();
 
@@ -102,5 +109,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.UseStaticFiles();
 
 app.Run();
