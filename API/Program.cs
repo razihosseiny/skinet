@@ -13,7 +13,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-//builder.Services.AddSwaggerGen();
 
 //connectionString
 var connectionString = builder.Configuration.GetConnectionString(name: "DefaultConnection");
@@ -25,6 +24,13 @@ builder.Services.AddAutoMapper(typeof(MappingProfile));
 ApplicationServiceExtensions.AddApplicationServices(builder.Services);
 
 SwaggerServiceExtensions.AddSwaggerDocumentation(builder.Services);
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("CorsPolicy", policy =>
+    {
+        policy.AllowAnyHeader().AllowAnyHeader().WithOrigins("https://localhost:4200");
+    });
+});
 
 var app = builder.Build();
 await ApplyMigrations(app);
@@ -82,7 +88,7 @@ static async Task ApplyMigrations(WebApplication app)
     //db.GetInfrastructure().GetService<IMigrator>();
     try
     {
-        //db.Database.EnsureCreated();
+        db.Database.EnsureCreated();
         await db.Database.MigrateAsync();
         await StoreContextSeed.SeedAsync(db, loggerFactory);
     }
@@ -106,6 +112,8 @@ app.UseStatusCodePagesWithReExecute("/errors/{0}");
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseCors("CorsPolicy");
 
 app.MapControllers();
 
