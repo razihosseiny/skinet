@@ -8,6 +8,8 @@ namespace Core.Entities
         public ProductBrand ProductBrand { get; set; }
         public int ProductBrandId { get; set; }
         public string Desc { get; set; }
+        public double Price { get; set; }
+        public string PictureUrl { get; set; }
         public DateTime RegDT { get; set; }
         public DateTime UpDT { get; set; }
         public bool IsActive { get; set; }
