@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BMjPCGXI5JcePXXdgUa6P6CvPXfX5P1ykpk67S9vUmk=",
+  "Hash": "2SibY8BSGdgiulsrzSF9noovBZWedmH0FDu7KMJp7Eg=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\boot-ang1.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\boot-ang1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/boot-ang1.png",
+      "RelativePath": "images/products/boot-ang1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,15 +31,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\boot-ang1.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\boot-ang1.png"
     },
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\boot-ang2.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\boot-ang2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/boot-ang2.png",
+      "RelativePath": "images/products/boot-ang2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -48,15 +48,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\boot-ang2.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\boot-ang2.png"
     },
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\boot-core1.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\boot-core1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/boot-core1.png",
+      "RelativePath": "images/products/boot-core1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,15 +65,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\boot-core1.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\boot-core1.png"
     },
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\boot-core2.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\boot-core2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/boot-core2.png",
+      "RelativePath": "images/products/boot-core2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,15 +82,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\boot-core2.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\boot-core2.png"
     },
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\boot-redis1.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\boot-redis1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/boot-redis1.png",
+      "RelativePath": "images/products/boot-redis1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,15 +99,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\boot-redis1.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\boot-redis1.png"
     },
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\glove-code1.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\glove-code1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/glove-code1.png",
+      "RelativePath": "images/products/glove-code1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\glove-code1.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\glove-code1.png"
     },
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\glove-code2.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\glove-code2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/glove-code2.png",
+      "RelativePath": "images/products/glove-code2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\glove-code2.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\glove-code2.png"
     },
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\glove-react1.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\glove-react1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/glove-react1.png",
+      "RelativePath": "images/products/glove-react1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,15 +150,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\glove-react1.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\glove-react1.png"
     },
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\glove-react2.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\glove-react2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/glove-react2.png",
+      "RelativePath": "images/products/glove-react2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,15 +167,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\glove-react2.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\glove-react2.png"
     },
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\hat-core1.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\hat-core1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/hat-core1.png",
+      "RelativePath": "images/products/hat-core1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,15 +184,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\hat-core1.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\hat-core1.png"
     },
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\hat-react1.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\hat-react1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/hat-react1.png",
+      "RelativePath": "images/products/hat-react1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,15 +201,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\hat-react1.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\hat-react1.png"
     },
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\hat-react2.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\hat-react2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/hat-react2.png",
+      "RelativePath": "images/products/hat-react2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,15 +218,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\hat-react2.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\hat-react2.png"
     },
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\sb-ang1.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\sb-ang1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/sb-ang1.png",
+      "RelativePath": "images/products/sb-ang1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -235,15 +235,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\sb-ang1.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang1.png"
     },
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\sb-ang2.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\sb-ang2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/sb-ang2.png",
+      "RelativePath": "images/products/sb-ang2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -252,15 +252,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\sb-ang2.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\sb-ang2.png"
     },
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\sb-core1.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\sb-core1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/sb-core1.png",
+      "RelativePath": "images/products/sb-core1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -269,15 +269,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\sb-core1.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\sb-core1.png"
     },
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\sb-core2.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\sb-core2.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/sb-core2.png",
+      "RelativePath": "images/products/sb-core2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -286,15 +286,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\sb-core2.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\sb-core2.png"
     },
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\sb-react1.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\sb-react1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/sb-react1.png",
+      "RelativePath": "images/products/sb-react1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,15 +303,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\sb-react1.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\sb-react1.png"
     },
     {
-      "Identity": "E:\\skinet\\api\\wwwroot\\products\\sb-ts1.png",
+      "Identity": "E:\\skinet\\api\\wwwroot\\images\\products\\sb-ts1.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skinet\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "products/sb-ts1.png",
+      "RelativePath": "images/products/sb-ts1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -320,7 +320,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\sb-ts1.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\sb-ts1.png"
     }
   ]
 }
