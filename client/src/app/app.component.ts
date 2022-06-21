@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,7 @@ export class AppComponent implements OnInit {
   title = 'Skinet';
 
 
-  constructor() { }
+  constructor(private route: ActivatedRoute,) { }
   ngOnInit(): void {
 
   }

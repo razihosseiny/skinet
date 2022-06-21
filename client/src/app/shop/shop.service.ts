@@ -1,3 +1,4 @@
+import { IProduct } from './../shared/models/product';
 import { IProductBrands } from './../shared/models/produtBrands';
 import { IPagination } from '../shared/models/pagination';
 import { HttpClient, HttpParams } from '@angular/common/http';
@@ -34,6 +35,9 @@ export class ShopService {
       .pipe(
         map(response => { return response.body; })
       );
+  }
+  getProduct(id: number) {
+    return this.http.get<IProduct>(this.baseUrl + "product/" + id);
   }
   getProductBrands() {
     return this.http.get<IProductBrands[]>(this.baseUrl + 'product/productbrands')
