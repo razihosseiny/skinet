@@ -23,7 +23,7 @@ a {
 .logo {
     cursor: pointer;
 
-    &.focus {
+    & :focus {
         outline: none;
     }
 }
