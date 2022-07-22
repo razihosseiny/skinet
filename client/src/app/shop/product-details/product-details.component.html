@@ -1,21 +1,26 @@
-<div class="row" *ngIf="product">
-    <div class="col-6">
-        <img src="{{product.pictureUrl}}" alt="{{product.name}}" class="img-fluid w-100">
-    </div>
-    <div class="col-6">
-        <h3>{{product.name}}</h3>
-        <p>{{product.price | currency}}</p>
-        <div class="d-flex justify-content-start align-items-center">
-            <i class="fa fa-minus-circle text-warning mr-2" style="cursor: pointer; font-size:2em;"></i>
-            <span class="font-weight-bold" style="font-size:2em">2</span>
-            <i class="fa fa-plus-circle text-warning mx-2" style="cursor: pointer; font-size:2em;"></i>
-            <button class="btn btn-outlet-secondary btn-lg ml-4">Add to Cart</button>
+<div class="container">
+    <div class="row" *ngIf="product">
+        <div class="col-6">
+            <img src="{{product.pictureUrl}}" alt="{{product.name}}" class="img-fluid w-100">
         </div>
-    </div>
-    <div class="row mt-5">
-        <div class="col-12 ml-3">
-            <h4>Description</h4>
-            <p>{{product.desc}}</p>
+        <div class="col-6">
+            <h3>{{product.name}}</h3>
+            <p>{{product.price | currency}}</p>
+            <div class="d-flex justify-content-start align-items-center">
+                <button (click)="decreamentQuantity()" style="border: 0px;background-color: white;">
+                    <i class="fa fa-minus-circle text-warning mr-2"
+                        style="cursor: pointer; font-size:2em;"></i></button>
+                <span class="font-weight-bold" style="font-size:2em">{{quantity}}</span>
+                <button (click)="inreamentQuantity()" style="border: 0px;background-color: white;">
+                    <i class="fa fa-plus-circle text-warning mx-2" style="cursor: pointer; font-size:2em;"></i></button>
+                <button (click)="addItemToBasket()" class="btn btn-outlet-primary btn-lg ml-4">Add to Cart</button>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 ml-3">
+                <h4>Description</h4>
+                <p>{{product.desc}}</p>
+            </div>
         </div>
     </div>
 </div>

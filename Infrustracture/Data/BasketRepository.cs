@@ -15,18 +15,18 @@ namespace Infrustracture.Data
 
         public async Task<bool> DeleteBasketAsync(string basketId)
         {
-            return await _dataBase.KeyDeleteAsync(basketId);
+            return await _dataBase.KeyDeleteAsync(basketId.ToString());
         }
 
         public async Task<CustomerBasket> GetBasketAsync(string basketId)
         {
-            var data = await _dataBase.StringGetAsync(basketId);
+            var data = await _dataBase.StringGetAsync(basketId.ToString());
             return data.IsNullOrEmpty ? null : JsonSerializer.Deserialize<CustomerBasket>(data);
         }
 
         public async Task<CustomerBasket> UpdateBasketAsync(CustomerBasket basket)
         {
-            var created = await _dataBase.StringSetAsync(basket.Id,
+            var created = await _dataBase.StringSetAsync(basket.Id.ToString(),
             JsonSerializer.Serialize(basket), TimeSpan.FromDays(30));
 
             if (!created) return null;
